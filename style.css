@@ -1,3 +1,14 @@
+body {
+    background: rgb(201, 197, 197);
+}
+
+.portada {
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .titulo {
     margin: 0px auto;
     width: 500px;
@@ -7,10 +18,7 @@
     font-size: 60px;
     padding: 30px;
     background: rgb(179, 46, 22);
-}
-
-body {
-    background: rgb(230, 228, 228);
+    flex: 1;
 }
 
 .eslogan {
@@ -19,28 +27,5 @@ body {
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
     font-size: 32px;
-}
-
-.carta{
-    font-family: "Hind", serif;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 30px;
-}
-
-.lista-platos {
-    list-style: none;
-    padding-left: 0px;
-    text-align: left;
-    margin-left: 500px;
-}
-
-.lista-platos li.pasta::before{
-    content:"🍝";
-    margin-right: 8px;
-}
-
-.lista-platos li.carne::before { 
-    content:"🥩";
-    margin-right: 8px;
+    flex: 1;
 }
