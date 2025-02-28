@@ -1,24 +1,33 @@
-.titulo {
-    margin: 0px auto;
-    width: 500px;
-    text-align: center;
-    font-family: "Mrs Saint Delafield", serif;
-    color: white;
-    font-size: 60px;
-    padding: 30px;
-    background: rgb(179, 46, 22);
-}
-
 body {
     background: rgb(230, 228, 228);
 }
 
+.portada {
+    display: flex;
+    border: 3px solid red;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    margin: 0px auto;
+    width: 94%;
+    text-align: center;
+    font-family: "Mrs Saint Delafield", serif;
+    color: white;
+    font-size: 400%;
+    padding: 30px;
+    background: rgb(179, 46, 22);
+    border: 3px solid white;
+}
+
 .eslogan {
-    margin: -45px auto 45px;
+    margin: -6% auto 6%;
     color: white;
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
-    font-size: 32px;
+    font-size: 300%;
+    border: 3px solid green;
 }
 
 .carta{
