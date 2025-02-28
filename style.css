@@ -31,18 +31,18 @@ body, html {
     font-size: 400%;
     padding: 2%;
     background: rgb(179, 46, 22);
-    margin-bottom: 0%;  /* Elimina el margen inferior */
+    margin-bottom: -0.3%;  /* Elimina el margen inferior */
 }
 
 .eslogan {
     width: 100%;
-    padding: 0.2%;
+    padding: 0%;
     color: white;
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
     font-size: 300%;
-    background: rgb(179, 46, 22);
-    margin-top: -5%;
+    background: transparent;
+    margin-top: -5.2%;
 }
 
 .menu {
@@ -65,7 +65,7 @@ body, html {
     display: flex;
     border: 3px solid green;
     list-style: none;
-    padding-left: 0px;
+    padding: 0px;
     text-align: center;
     align-self: center;
     flex-wrap: wrap;
@@ -76,8 +76,9 @@ body, html {
 
 .lista-platos li {
     width: 40%;
-    padding: 10px;
     box-sizing: border-box;
+    border: 3px solid blue;
+    flex: auto;
 }
 
 .lista-platos li.pasta::before{
@@ -88,4 +89,9 @@ body, html {
 .lista-platos li.carne::before { 
     content:"🥩";
     margin-right: 8px;
+}
+
+.lista-platos .carne img { 
+    height: 30vh;
+    width: auto;
 }
