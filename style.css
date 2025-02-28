@@ -1,37 +1,46 @@
-body {
-    background: rgb(201, 197, 197);
-    margin: 0;
-    padding: 0;
-}
-
-.portada {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
-    width: 100vh;
-    border: 3px solid red;
-}
-
 .titulo {
-    margin: 0 auto;
-    width: 80%;
+    margin: 0px auto;
+    width: 500px;
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
     color: white;
-    font-size: 5vw;
-    padding: 4vh 4%;
+    font-size: 60px;
+    padding: 30px;
     background: rgb(179, 46, 22);
-    flex: 1;
-    max-width: 800px;
+}
+
+body {
+    background: rgb(230, 228, 228);
 }
 
 .eslogan {
-    margin: -4vh auto 4vh;
+    margin: -45px auto 45px;
     color: white;
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
-    font-size: 2vh;
-    flex: 1;
-    max-width: 700px;
+    font-size: 32px;
+}
+
+.carta{
+    font-family: "Hind", serif;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lista-platos {
+    list-style: none;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: 500px;
+}
+
+.lista-platos li.pasta::before{
+    content:"🍝";
+    margin-right: 8px;
+}
+
+.lista-platos li.carne::before { 
+    content:"🥩";
+    margin-right: 8px;
 }
