@@ -3,7 +3,6 @@ body {
 }
 
 .portada {
-    border: 3px solid red;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,7 +10,7 @@ body {
 
 .titulo {
     margin: 0px auto;
-    width: 500px;
+    width: auto;
     text-align: center;
     font-family: "Mrs Saint Delafield", serif;
     color: white;
